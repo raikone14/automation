@@ -39,7 +39,7 @@ def doBackup(DevicesInfos):
 db = mysql.connector.connect(
 host="localhost",
 user="root",
-passwd="Junior14@",
+passwd="password",
 database="altice"
 )
 mycursor = db.cursor()
